@@ -1,0 +1,38 @@
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    
+    color: #111529;
+}
+.wrap{
+    border-style: groove;
+    border-color: white;
+    height: 600px;
+    overflow: auto;
+}
+h2{
+    line-height: 1.4;
+}
+#violet{
+    background-color: #480e83;
+    color: white;
+    text-align: center;
+}
+.bluebutton{
+    background-color: #20c8b2;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.violetbutton{
+    background-color: #480e83;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}

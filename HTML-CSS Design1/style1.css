@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<style>
-    body{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,21 +46,3 @@
     left: 160px;
     bottom: 65px;
 }
-</style>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Excercise 1</title>
-        
-    </head>
-    <body>
-        <div class="container">
-            <img id="logo" src="logo.png">
-            <p id="heading">Find <span style="font-weight: bold;"> The Best Home Furniture</span> For Your Room</p>
-            <img id="chair" src="image1.png">
-            <button id="button1" type="button" onclick="location.href='excercise1b.html'">Get Started</button>
-        </div>
-    </body>
-</html>
