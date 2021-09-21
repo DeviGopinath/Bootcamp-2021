@@ -1,0 +1,253 @@
+:root {
+  --primarycolor: black;
+  --secondarycolor: white;
+  --pinkcolor: #f45eac;
+  --bluecolor: #0d1965;
+  --lightblue: #56fec9;
+  --darkblue: #15085b;
+  --darkpink: #fd0e3e;
+}
+html,
+body {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--secondarycolor);
+}
+section {
+  width: 100%;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-weight: bold;
+}
+h1,
+.h1 {
+  font-size: 5rem;
+  line-height: 1.3;
+}
+h2,
+.h2 {
+  font-size: 4rem;
+}
+h3,
+.h3 {
+  font-size: 2rem;
+}
+h5,
+.h5 {
+  font-size: 1.5rem;
+}
+h6,
+.h6 {
+  font-size: 1.2rem;
+}
+span {
+  color: var(--lightblue);
+}
+.bluesection {
+  background-color: var(--bluecolor);
+  color: var(--secondarycolor);
+  padding-bottom: 6rem;
+}
+.odinlogo {
+  max-height: 80px;
+}
+.logoimg {
+  height: 100%;
+}
+.mybtn {
+  background-color: var(--pinkcolor);
+  border: none;
+  border-radius: 0.2rem;
+  color: var(--secondarycolor);
+  padding: 0.6rem 2rem;
+}
+.midcontainer {
+  padding-top: 7rem;
+  background: url(../img/phoneimg.png) no-repeat;
+  background-position-x: center;
+  height: 100%;
+}
+.safety {
+  position: relative;
+}
+.safety ::after {
+  content: "";
+  /* background-color: red; */
+  background: url(../img/ribbon.png) no-repeat;
+  display: inline-block;
+  height: 40px;
+  width: 45px;
+  margin-bottom: 1.8rem;
+  margin-left: -2.2rem;
+}
+/* .ribbon {
+  height: 40px;
+  position: absolute;
+  top: 220px;
+  right: 500px;
+} */
+.dim {
+  opacity: 0.7;
+}
+.imgbg {
+  /* background: url(../img/rect1.png) no-repeat; */
+  background-color: var(--darkblue);
+}
+.smallcontainer {
+  background-color: var(--darkblue);
+  border: none;
+  border-radius: 1.375rem;
+  color: var(--secondarycolor);
+  padding: 2rem 0;
+  /* max-width: 900px; */
+  position: relative;
+  bottom: 6rem;
+}
+.howitworks {
+  font-size: 1.35rem;
+  opacity: 0.7;
+}
+/* .grpimg {
+  display: flex;
+  height: auto;
+  width: auto;
+} */
+
+.icon {
+  margin-bottom: 2rem;
+  height: 60px;
+}
+.pinksection {
+  background-color: var(--darkpink);
+  color: var(--secondarycolor);
+  padding-top: 5rem;
+}
+.pinkphone {
+  height: 800px;
+}
+.martop {
+  margin-top: 5rem;
+}
+
+.smallyellow {
+  background: transparent linear-gradient(90deg, #fea128 0%, #fbd64f 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.pinkicon {
+  height: 5rem;
+}
+.smallwhite {
+  background-color: var(--secondarycolor);
+  color: var(--primarycolor);
+  border-radius: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.faq {
+  margin-top: 4rem;
+}
+.box {
+  border: 1px solid #d3dae5;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  max-width: 1000px;
+}
+/* .dropdownicon {
+  height: 20px;
+  width: 20px;
+} */
+.bi-chevron-compact-down {
+  float: right;
+  margin-top: 1rem;
+}
+.yellowbox {
+  background: transparent linear-gradient(90deg, #fea128 0%, #fbd64f 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 0.625rem;
+  padding-top: 1.2rem;
+  position: relative;
+  bottom: -4rem;
+}
+.orderbtn {
+  background: #1f1f1f 0% 0% no-repeat padding-box;
+  border: none;
+  color: var(--secondarycolor);
+  padding: 1rem 4rem;
+}
+.bluesection2 {
+  padding-top: 7rem;
+  background-color: var(--bluecolor);
+  color: var(--secondarycolor);
+  padding-bottom: 1.5rem;
+}
+.ul1 li {
+  margin-bottom: 0.5rem;
+}
+.ul1 li a {
+  opacity: 0.6;
+}
+.footer {
+  margin-top: 2rem;
+  opacity: 0.5;
+}
+@media only screen and (max-width: 1200px) {
+  /* .ribbon {
+    height: 40px;
+    position: absolute;
+    top: 220px;
+    right: 37%;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    justify-content: center;
+  }
+  .mybtn {
+    float: right;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mybtn {
+    float: right;
+  }
+  .two {
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+  }
+  .innerpara {
+    max-width: 200px;
+    padding-left: 3rem;
+  }
+  .innerpara2 {
+    padding-left: 3rem;
+    max-width: 300px;
+  }
+}
